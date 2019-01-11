@@ -4,8 +4,12 @@ import tempfile
 import torch
 import tempfile
 from autokeras.constant import Constant
+<<<<<<< HEAD
 import sys
 import requests
+=======
+
+>>>>>>> 6a372be5b18edc3e4e0fc88ac85bcaaec16853eb
 
 class NoImprovementError(Exception):
     def __init__(self, message):
@@ -121,6 +125,7 @@ def verbose_print(new_father_id, new_graph):
         line = '|'.join(str(x).center(cell_size[i]) for i, x in enumerate(r))
         print('|' + line + '|')
     print('+' + '-' * len(line) + '+')
+<<<<<<< HEAD
 
 
 def download_file(file_link, file_path):
@@ -142,3 +147,5 @@ def download_file(file_link, file_path):
                     done = int(50 * dl / total_length)
                     sys.stdout.write("\r[%s%s]" % ('=' * done, ' ' * (50 - done)))
                     sys.stdout.flush()
+=======
+>>>>>>> 6a372be5b18edc3e4e0fc88ac85bcaaec16853eb

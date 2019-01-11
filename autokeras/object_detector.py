@@ -363,7 +363,12 @@ class ObjectDetector():
     
         print('Evaluating detections')
         self.evaluate_detections(annopath, all_boxes, devkit_path, imgsetpath, output_dir, dataset, set_type)
+<<<<<<< HEAD
 
+=======
+    
+    
+>>>>>>> 6a372be5b18edc3e4e0fc88ac85bcaaec16853eb
     def evaluate_detections(self, annopath, box_list, devkit_path, imgsetpath, output_dir, dataset, set_type):
         self.write_voc_results_file(box_list, dataset, devkit_path, set_type)
         self.do_python_eval(annopath, devkit_path, imgsetpath, set_type, output_dir)
