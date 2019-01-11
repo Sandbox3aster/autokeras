@@ -1,27 +1,16 @@
 <img src="https://github.com/jhfjhfj1/autokeras/blob/master/logo.png?raw=true" alt="drawing" width="400px" style="display: block; margin-left: auto; margin-right: auto"/>
 
-<div style="text-align: center">
-<p>
-<a href="https://travis-ci.org/jhfjhfj1/autokeras"><img alt="Build Status" src="https://travis-ci.org/jhfjhfj1/autokeras.svg?branch=master" style="width: 90px"/></a>
-<a href="https://coveralls.io/github/jhfjhfj1/autokeras?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/jhfjhfj1/autokeras/badge.svg?branch=master" style="width: 99px"/></a>
+[![Build Status](https://travis-ci.org/jhfjhfj1/autokeras.svg?branch=master)](https://travis-ci.org/jhfjhfj1/autokeras)
+[![Coverage Status](https://coveralls.io/repos/github/jhfjhfj1/autokeras/badge.svg?branch=master)](https://coveralls.io/github/jhfjhfj1/autokeras?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2a3b9e38e4904bd9a20554146c626b4a)](https://app.codacy.com/app/jhfjhfj1/autokeras?utm_source=github.com&utm_medium=referral&utm_content=jhfjhfj1/autokeras&utm_campaign=Badge_Grade_Settings)
 <a href="https://badge.fury.io/py/autokeras"><img src="https://badge.fury.io/py/autokeras.svg" alt="PyPI version" style="width: 125px"></a>
-<a href="https://autokeras.com"><img src="https://readthedocs.org/projects/pip/badge/?version=latest&style=flat" alt="AutoKeras Official Website" style="width: 86px"></a>
-</p>
-</div>
+
+Official Website: [autokeras.com](https://autokeras.com)
 
 Auto-Keras is an open source software library for automated machine learning (AutoML).
 It is developed by <a href="http://faculty.cs.tamu.edu/xiahu/index.html" target="_blank" rel="nofollow">DATA Lab</a> at Texas A&M University and community contributors.
 The ultimate goal of AutoML is to provide easily accessible deep learning tools to domain experts with limited data science or machine learning background. 
 Auto-Keras provides functions to automatically search for architecture and hyperparameters of deep learning models.
-
-## Installation
-
-
-To install the package, please use the `pip` installation as follows:
-
-    pip install autokeras
-    
-**Note:** currently, Auto-Keras is only compatible with: **Python 3.6**.
 
 ## Example
 
@@ -40,11 +29,9 @@ You can use Gitter to communicate with people who also interested in Auto-Keras.
 
 <a href="https://gitter.im/autokeras/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img src="https://badges.gitter.im/autokeras/Lobby.svg" alt="Join the chat at https://gitter.im/autokeras/Lobby" style="width: 92px"></a>
 
-## Citing this work
+## Cite this work
 
-If you use Auto-Keras in a scientific publication, you are highly encouraged (though not required) to cite the following paper:
-
-Efficient Neural Architecture Search with Network Morphism.
+Auto-Keras: Efficient Neural Architecture Search with Network Morphism.
 Haifeng Jin, Qingquan Song, and Xia Hu.
 [arXiv:1806.10282](https://arxiv.org/abs/1806.10282).
 
@@ -52,7 +39,7 @@ Biblatex entry:
 
     @online{jin2018efficient,
       author       = {Haifeng Jin and Qingquan Song and Xia Hu},
-      title        = {Efficient Neural Architecture Search with Network Morphism},
+      title        = {Auto-Keras: Efficient Neural Architecture Search with Network Morphism},
       date         = {2018-06-27},
       year         = {2018},
       eprintclass  = {cs.LG},
@@ -60,6 +47,15 @@ Biblatex entry:
       eprint       = {cs.LG/1806.10282},
     }
  
+## Support Auto-Keras
+
+We accept donations on [Open Collective](https://opencollective.com/autokeras).
+Thank every backer for supporting us!
+
+<a href="https://opencollective.com/autokeras/donate" target="_blank">
+  <img src="https://opencollective.com/autokeras/donate/button@2x.png?color=blue" width=200 />
+</a>
+
 
 ## DISCLAIMER
 
@@ -72,4 +68,3 @@ appreciated.
 ## Acknowledgements
 
 The authors gratefully acknowledge the D3M program of the Defense Advanced Research Projects Agency (DARPA) administered through AFRL contract FA8750-17-2-0116; the Texas A&M College of Engineering, and Texas A&M. 
-

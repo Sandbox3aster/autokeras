@@ -1,11 +1,11 @@
-<<<<<<< HEAD
 .pth
+# vim swp files
+*.swp
+# caffe/pytorch model files
+*.pth
 
-=======
->>>>>>> 6a372be5b18edc3e4e0fc88ac85bcaaec16853eb
 # Mkdocs
 /docs/
-/mkdocs/docs/index.md
 /mkdocs/docs/temp
 
 .DS_Store
@@ -121,3 +121,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+examples/text_cnn/glove_embedding/
